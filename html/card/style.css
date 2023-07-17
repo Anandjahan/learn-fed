@@ -1,0 +1,75 @@
+body
+{
+    font-family:  Inter var;
+}
+#main{
+    text-align: center;
+}
+#para1{
+    color: rgb(79,70,229);
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 5%;
+}
+#para2{
+    font-size: 3rem;
+    font-weight: bolder;
+    margin-top: -1rem;
+}
+#para3
+{
+    color:grey;
+    font-size: 1rem;
+    margin-top: -2rem;
+}
+#outer
+{
+    display: grid;
+    margin-top: 5%;
+    margin-left: 3%;
+}
+#l1
+{
+    width:30%;
+    border: 1px solid #e5e7eb;
+    border-radius: 15px;
+    align-content: center; 
+    padding-left: 3%;
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-right: 3%;
+
+}
+#l1 >p,#l1 > ul
+{color: gray;
+}
+#l1 ul{
+    margin-left: -43px;
+}
+li
+{
+    padding: 5px;
+}
+.mid{
+    color: rgb(75 85 99) ;
+    font-size: 15px;
+
+}
+.innermid 
+{
+    color: black;
+    font-size: 35px;
+}
+#l1 button
+{
+    color: rgb(79,70,229);
+    background-color: white;
+    font-size: 15px;
+    border:1px solid rgb(79,70,229);
+    border-radius:5px ;
+    width: 100%;
+    padding: 8px;
+    
+    
+}
